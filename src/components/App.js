@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div id="main">
       <button onClick={increment} id="increment">increment</button>
-        <div className={color} >
+        <div className={color} id="counter">
             {count}
         </div>
         <button onClick={decrement} id="decrement">decrement</button>
