@@ -17,10 +17,10 @@ const App = () => {
   }
 
   function colorChange(count){
-    if(count%3==0){
+    if(count%3==0 && count%5!=0){
       setColor("fizz");
     }
-    else if(count%5==0){
+    else if(count%5==0 && count%3!=0){
       setColor("buzz")
     }
     else if(count%15==0){
